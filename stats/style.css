@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  font-size: 2.5rem;
+  margin: 20px 10px;
+}
+ul {
+  list-style: none;
+}
+a {
+  color: #568dca;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+.main-section {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.sp-cont {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
